@@ -1,0 +1,102 @@
+.grid-container{
+  display: grid;
+  grid-template-areas:
+  'personal_info header header'
+  'personal_info group1 group1'
+  'personal_info group2 group2'
+  'personal_info group3 group3'
+  'personal_info group4 group4'
+  'personal_info group5 group5';
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-gap: 0;'
+ }
+
+ .personal_info {
+    background-color: #5a0b0bde;
+    height: 100%;
+    grid-row-start: 1;
+    grid-row-end: 7;
+    border: 2px solid #9996;
+    color: #fff;
+}
+
+.header{
+  background-color: #5a0b0bde;
+  grid-column-start:2;
+  grid-column-end:5;
+  height: 180px;
+  text-align: center;
+  color: #fff;
+  font-family: fantasy;
+  font-size: 45px;
+}
+
+.group1 {
+  display: grid;
+  grid-gap: 10px;
+  background-color: #fff;
+  grid-column-start: 2;
+  grid-column-end: 5;
+  grid-row-start: 2;
+  grid-row-end: 3;
+}
+
+.group2 {
+  display: grid;
+  grid-gap: 10px;
+    background-color: #fff;
+    grid-column-start: 2;
+    grid-column-end: 5;
+}
+
+.group3 {
+  display: grid;
+  grid-gap: 10px;
+    background-color:#fff;
+    grid-column-start: 2;
+    grid-column-end: 5;
+}
+
+.item{
+  height: 300px;
+}
+
+.pic{
+  border-radius: 150px;
+}
+
+.p2{
+  font-size: 15px;
+  margin: 50px;
+}
+
+a{
+  margin: 110px;
+  font-size: 20px;
+}
+
+/* .item{
+  display: inline-block;
+} */
+
+.t1{
+  grid-column-start: 2;
+  grid-column-end: 3;
+}
+
+.t2{
+  grid-column-start: 4;
+  grid-column-end: 5;
+}
+
+a:active{
+  color:red;
+}
+
+a:hover{
+  color: black;
+}
+
+a{
+  color: #fff;
+}
