@@ -1,3 +1,4 @@
+/* styling the grid container */
 .grid-container{
   display: grid;
   grid-template-areas:
@@ -11,6 +12,7 @@
   grid-gap: 0;'
  }
 
+/* styling for the column consisting of personal_info and groups */
  .personal_info {
     background-color: #5a0b0bde;
     height: 100%;
@@ -20,6 +22,7 @@
     color: #fff;
 }
 
+/* styling for header */
 .header{
   background-color: #5a0b0bde;
   grid-column-start:2;
@@ -31,6 +34,7 @@
   font-size: 45px;
 }
 
+/* styling for group1 */
 .group1 {
   display: grid;
   grid-gap: 10px;
@@ -41,6 +45,7 @@
   grid-row-end: 3;
 }
 
+/*styling for group2  */
 .group2 {
   display: grid;
   grid-gap: 10px;
@@ -49,6 +54,7 @@
     grid-column-end: 5;
 }
 
+/* styling for group3 */
 .group3 {
   display: grid;
   grid-gap: 10px;
@@ -57,10 +63,12 @@
     grid-column-end: 5;
 }
 
+/* changing the height for all the group divs */
 .item{
   height: 300px;
 }
 
+/*styling my personal picture  */
 .pic{
   border-radius: 150px;
 }
@@ -93,6 +101,7 @@ a:active{
   color:red;
 }
 
+/* changing the colour of the links when hovering over them */
 a:hover{
   color: black;
 }
